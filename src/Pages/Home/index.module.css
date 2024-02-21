@@ -1,0 +1,15 @@
+/* IDs */
+#sub_class_home {
+    margin-top: 4em;
+}
+
+#subclass_home_title, #subclass_home_paragraph {
+    color: var(--white-color);
+}
+
+#sub_class_home_blob {
+    position: absolute;
+    z-index: -1;
+    width: 90%;
+    left: -15%;
+}
