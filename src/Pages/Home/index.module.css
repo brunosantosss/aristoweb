@@ -1,6 +1,6 @@
 /* IDs */
 #sub_class_home {
-    margin-top: 4em;
+    margin-top: 5em;
 }
 
 #subclass_home_title, #subclass_home_paragraph {
@@ -10,6 +10,6 @@
 #sub_class_home_blob {
     position: absolute;
     z-index: -1;
-    width: 90%;
-    left: -15%;
+    width: 85%;
+    left: -13%;
 }
