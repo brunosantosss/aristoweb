@@ -10,6 +10,7 @@
 #sub_class_home_blob {
     position: absolute;
     z-index: -1;
-    width: 85%;
-    left: -13%;
+    width: 100%;
+    left: -20%;
+    top: -25%;
 }

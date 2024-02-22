@@ -1,0 +1,24 @@
+/* CLASS */
+/* IDs */
+#subclass_news
+{
+    width: 65%;
+}
+
+#subclass_highlights
+{
+    width: 35%;
+}
+
+#subclass_news_title
+{
+    display: inline-block;
+    background: rgb(36,166,55);
+    padding: 8px 30px 8px 30px;
+    border-radius: 12px;
+}
+
+#subclass_news_title > h1 
+{
+    color: var(--white-color);
+}

@@ -7,12 +7,14 @@ import '../main/main.css'
 
 import NavBar from "./Components/NavBar";
 import Home from "./Pages/Home";
+import News from "./Pages/News";
 
 function App() {
   return (
     <>
       <NavBar/>
       <Home />
+      <News />
     </>
   )
 }
