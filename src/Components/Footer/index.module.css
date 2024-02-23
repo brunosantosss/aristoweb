@@ -1,0 +1,10 @@
+/* IDs */
+
+#subclass_footer {
+    margin-top: 20em;
+    background-color: #1f912e;
+}
+
+#subclass_footer > img {
+    width: 60px;
+}

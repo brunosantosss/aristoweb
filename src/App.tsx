@@ -6,8 +6,11 @@ import 'bootstrap/dist/js/bootstrap.bundle.min';
 import '../main/main.css'
 
 import NavBar from "./Components/NavBar";
+import Footer from "./Components/Footer";
+
 import Home from "./Pages/Home";
 import News from "./Pages/News";
+import Topics from "./Pages/Topics";
 
 function App() {
   return (
@@ -15,6 +18,8 @@ function App() {
       <NavBar/>
       <Home />
       <News />
+      <Topics />
+      <Footer />
     </>
   )
 }

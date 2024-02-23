@@ -1,0 +1,13 @@
+/* IDs */
+
+#subclass_topics {
+    background: #1f912e;
+}
+
+#subclass_topics_title, #subclass_topics_box_title > h1, #subclass_topics_box_subbox > p {
+    color: var(--white-color);
+}
+
+#subclass_topics_box_subbox > img {
+    width: 35%;
+}
