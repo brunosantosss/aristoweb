@@ -1,30 +1,8 @@
-# React + TypeScript + Vite
+# AristoWeb
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Ei! Seja bem vindo ao Aristoweb. 
 
-Currently, two official plugins are available:
+Convenhamos que é bem trabalhoso a busca por editais, cronogramas de vestibulares ou até mesmo materiais de estudo. Por isso Aristoweb é uma plataforma desenvolvida por alunos da EEEP Professor Francisco Aristóteles de Sousa que tem como objetivo facilitar a vida dos alunos fornecendo contéudos sobre os assuntos mais importantes para os alunos, principalmente aqueles que estão no terceiro ano do ensino médio.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+- Acesse a plataforma [aqui!](https://www.aristoweb.web.app)
+- Veja nossas redes sociais! [instagram](https://www.instagram.com/aristoweb)
