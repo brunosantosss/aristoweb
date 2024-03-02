@@ -1,0 +1,21 @@
+/* IDs */
+#subclass_login {
+    padding: 6em;
+}
+
+#subclass_login_content {
+    width: 40%;
+    border-radius: 50px;
+    background-color: var(--main-green-color);
+}
+
+#subclass_login_content > button {
+    border-radius: 14px;
+    background-color: #157223;
+}
+
+.subclass_login_input {
+    border-radius: 10px;
+    outline: none;
+}
+

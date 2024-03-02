@@ -1,3 +1,9 @@
+// COMPONENTS //
+import NavBar from "../../Components/NavBar";
+import News from "../../Components/News";
+import Topics from "../../Components/Topics";
+import Footer from "../../Components/Footer";
+
 // ASSETS // 
 import students_cuate from '../../assets/Students-cuate.png';
 import blob from '../../assets/blob1.svg';
@@ -8,6 +14,7 @@ import css_style from './index.module.css';
 function Home() {
     return (
         <>
+            <NavBar/>
             <section id={css_style.sub_class_home} className='w-100 d-flex justify-content-around align-items-center p-5'>
                 <img src={blob} id={css_style.sub_class_home_blob} className='mr-5' />
                 <div className='w-55'>
@@ -18,6 +25,10 @@ function Home() {
                     <img src={students_cuate} className='img-fluid'/>
                 </div>
             </section>
+
+            <News />
+            <Topics />
+            <Footer />
         </>
     )
 }

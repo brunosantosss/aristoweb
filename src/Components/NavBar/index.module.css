@@ -5,19 +5,14 @@
     background: linear-gradient(90deg, rgba(36,166,55,1) 0%, rgba(46,171,85,1) 35%, rgba(80,188,185,1) 100%);
 }
 
-#subclass_menu_item {
-    color: var(--white-color);
-}
-
-
-/* CLASS */
 #subclass_menu_item_login {
     margin-left: 1em;
 }
 
+/* CLASS */
 .subclass_navbar_brand {
-    width: 300px;
-    height: 40px;
+    width: 380px;
+    height: 55px;
 }
 
 @media (max-width: 1200px) {

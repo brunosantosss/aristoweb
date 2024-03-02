@@ -1,0 +1,25 @@
+/* CLASS */
+.subclass_admin_navbar {
+    background: rgb(36,166,55);
+    background: linear-gradient(90deg, rgba(36,166,55,1) 0%, rgba(46,171,85,1) 35%, rgba(80,188,185,1) 100%);
+    padding: 1.5em;
+}
+
+.subclass_navbar_admin_brand {
+    width: 380px;
+    height: 55px;
+}
+
+/**/
+.offcanvas_admin_box_header {
+    background-color: #1C902D;
+}
+
+.offcanvas_admin_box_item > button {
+    background-color: #1C902D;
+    border-radius: 12px;
+}
+
+.offcanvas_admin_box_item > button:hover {
+    background-color: #1C902D;
+}
