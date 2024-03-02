@@ -19,7 +19,7 @@ function Home() {
                 <img src={blob} id={css_style.sub_class_home_blob} className='mr-5' />
                 <div className='w-55'>
                     <h1 className='fs-1 mb-5' id={css_style.subclass_home_title} >ENEM, UECE, UFC... TANTA COISA!</h1>
-                    <p className='fs-5' id={css_style.subclass_home_paragraph} >Relaxa, o AriWeb vai te ajudar! Tem muito conteúdo e novidades aqui. Cronogramas, editais, simulados, conteúdos de matérias e muito mais! Esperamos que consiga tirar o máximo de proveito de todo o conteúdo disponível na plataforma! Com isso, bons estudos! </p>
+                    <p className='fs-5' id={css_style.subclass_home_paragraph} >Relaxa, o AristoWeb vai te ajudar! Tem muito conteúdo e novidades aqui. Cronogramas, editais, simulados, conteúdos de matérias e muito mais! Esperamos que consiga tirar o máximo de proveito de todo o conteúdo disponível na plataforma! Com isso, bons estudos! </p>
                 </div>
                 <div className='w-45'>
                     <img src={students_cuate} className='img-fluid'/>
