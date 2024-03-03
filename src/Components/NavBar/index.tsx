@@ -42,9 +42,13 @@ function NavBar() {
 							<li className="nav-item dropdown">
 								<Link className='nav-link dropdown-toggle fs-5 text-light text-decoration-none fw-medium' to="/" role='button' data-bs-toggle="dropdown" aria-expanded="false">CONTEÚDOS</Link>
 
-								<ul className="dropdown-menu bg-success">
-									<li><Link to="/" className="text-light dropdown-item fs-6 p-3 fw-medium">REPERTÓRIO</Link></li>
-									<li><Link to="/" className="text-light dropdown-item fs-6 p-3 fw-medium">MATÉRIAS</Link></li>
+								<ul className={css_style.subclass_navbar_drop+" dropdown-menu"}>
+									<li className={css_style.subclass_navbar_item}>
+										<Link to="/" className="text-light dropdown-item fs-6 p-3 fw-medium">REPERTÓRIO</Link>
+									</li>
+									<li className={css_style.subclass_navbar_item}>
+										<Link to="/" className="text-light dropdown-item fs-6 p-3 fw-medium">MATÉRIAS</Link>
+									</li>
 								</ul>
 							</li>
 

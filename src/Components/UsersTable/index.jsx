@@ -8,7 +8,7 @@ import { IoPersonAdd } from "react-icons/io5";
 function UsersTable() {
     return (
         <>
-            <div className='p-5'>
+            <div className='p-5 bg-dark-subtle'>
                 <table className="table">
                     <thead>
                         <tr>

@@ -1,5 +1,4 @@
 /* IDs */
-
 #subclass_navbar_bg {
     background: rgb(36,166,55);
     background: linear-gradient(90deg, rgba(36,166,55,1) 0%, rgba(46,171,85,1) 35%, rgba(80,188,185,1) 100%);
@@ -15,8 +14,16 @@
     height: 55px;
 }
 
+.subclass_navbar_drop {
+    background-color: #1C902D;
+    transition: .7s;
+}
+
+.subclass_navbar_item > a:hover {
+    background-color: #1b6e29;
+}
+
 @media (max-width: 1200px) {
-    
     #subclass_menu_item_login {
         padding-top: 2em;
         margin-left: 0em;
