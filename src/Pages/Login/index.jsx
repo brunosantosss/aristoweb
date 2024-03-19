@@ -29,11 +29,9 @@ function Login() {
                         <input className={css_style.subclass_login_input + " w-100 p-3 border-0"} type="password" placeholder="Digite sua senha"/>
                     </div>
 
-                    <button className="mt-5 mb-5 border-0 p-2 bg-success.bg-gradient ">
-                        <Link className="text-decoration-none fs-4 text-light" to='/adminpanel'>
-                            Entrar
-                        </Link>
-                    </button>
+                    <Link className="w-100 mt-5 btn mb-5 border-0 p-2 text-decoration-none fs-4 text-light" to='/adminpanel'>
+                        Entrar
+                    </Link>
                     
                     <div className="box-bottom-exit d-flex flex-column align-items-center">
                         <ImExit className="text-light" size={40}/>

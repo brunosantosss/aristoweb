@@ -9,7 +9,7 @@
     background-color: var(--main-green-color);
 }
 
-#subclass_login_content > button {
+#subclass_login_content > a {
     border-radius: 14px;
     background-color: #157223;
 }

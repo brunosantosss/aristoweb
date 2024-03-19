@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 
 // COMPONENTS //
 import UsersTable from '../../Components/UsersTable';
-import CreatePosts from '../../Components/CreatePosts';
+import ManagePosts from '../../Components/ManagePosts';
 
 // CSS //
 import css_style from './index.module.css';
@@ -79,6 +79,8 @@ function AdminPanel() {
                                     <p className='fs-5 text-light mt-2'>Verificar Logs</p>
                                 </button>
                                 
+                                
+
                             </li>
                         </ul>
                     </div>
@@ -136,7 +138,7 @@ function AdminPanel() {
                             </li>
                         </ol>
                     </div>
-                    <CreatePosts />
+                    <ManagePosts />
                 </>
             )}
         </>

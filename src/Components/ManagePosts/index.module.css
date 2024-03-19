@@ -1,0 +1,17 @@
+/* CLASS */
+.post_card {
+    background-color: #2DB640;
+    border-radius: 22px;
+}
+
+.posts_table {
+    max-height: 400px;
+}
+
+.btn_filter {
+    background-color: #212529;
+}
+
+.btn_filter > li:hover {
+    background-color: #36393c;
+}
