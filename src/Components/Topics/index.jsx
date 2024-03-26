@@ -6,7 +6,7 @@ import { GiWhiteBook } from "react-icons/gi";
 import { GrSchedule } from "react-icons/gr";
 import { PiBookOpenTextFill } from "react-icons/pi";
 
-import wave1 from '../../assets/wave1.svg';
+import wave1 from '../../assets/Vector/wave1.svg';
 
 function Topics() {
     return (

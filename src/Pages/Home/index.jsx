@@ -5,8 +5,8 @@ import Topics from "../../Components/Topics";
 import Footer from "../../Components/Footer";
 
 // ASSETS // 
-import students_cuate from '../../assets/Students-cuate.png';
-import blob from '../../assets/blob1.svg';
+import students_cuate from '../../assets/Illustrations/ilus_Students-cuate.png';
+import blob from '../../assets/Vector/blob1.svg';
 
 // CSS //
 import css_style from './index.module.css';

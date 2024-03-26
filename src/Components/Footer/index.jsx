@@ -2,7 +2,7 @@
 import css_style from './index.module.css'
 
 // ASSETS //
-import logo_escola  from '../../assets/escola_icon.png'
+import logo_escola  from '../../assets/Logos/escola_icon.png'
 
 function Footer() {
     return (

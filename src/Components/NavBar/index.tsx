@@ -25,36 +25,24 @@ function NavBar() {
 					</button>
 
 					<div className="collapse navbar-collapse justify-content-end align-items-center" id='navbarNavDropdown'>
-						<ul className="navbar-nav"> 
+						<ul className="navbar-nav gap-2"> 
 							<li className="nav-item">
-								<Link className='nav-link activate fs-5 text-light text-decoration-none fw-medium' to="/">ÍNICIO</Link>
+								<Link className='nav-link activate fs-4 text-light text-decoration-none ' to="/">Ínicio</Link>
 							</li>
 							<li className="nav-item">
-								<Link className='nav-link activate fs-5 text-light text-decoration-none fw-medium' to="/">NOVIDADES</Link>
+								<Link className='nav-link activate fs-4 text-light text-decoration-none ' to="/simulados">Simulados</Link>
 							</li>
 							<li className="nav-item">
-								<Link className='nav-link activate fs-5 text-light text-decoration-none fw-medium' to="/">SIMULADOS</Link>
+								<Link className='nav-link activate fs-4 text-light text-decoration-none ' to="/cronogramas">Cronogramas</Link>
 							</li>
+							
 							<li className="nav-item">
-								<Link className='nav-link activate fs-5 text-light text-decoration-none fw-medium' to="/">CRONOGRAMAS</Link>
-							</li>
-
-							<li className="nav-item dropdown">
-								<Link className='nav-link dropdown-toggle fs-5 text-light text-decoration-none fw-medium' to="/" role='button' data-bs-toggle="dropdown" aria-expanded="false">CONTEÚDOS</Link>
-
-								<ul className={css_style.subclass_navbar_drop+" dropdown-menu"}>
-									<li className={css_style.subclass_navbar_item}>
-										<Link to="/" className="text-light dropdown-item fs-6 p-3 fw-medium">REPERTÓRIO</Link>
-									</li>
-									<li className={css_style.subclass_navbar_item}>
-										<Link to="/" className="text-light dropdown-item fs-6 p-3 fw-medium">MATÉRIAS</Link>
-									</li>
-								</ul>
+								<Link className='nav-link activate fs-4 text-light text-decoration-none ' to="/conteudos">Conteúdos</Link>
 							</li>
 
 							<li className="nav-item">
 								<Link to='/login'>
-									<IoPersonCircle className='text-light' size={40}/>
+									<IoPersonCircle className='text-light' size={50}/>
 								</Link>
 							</li>
 						</ul>

@@ -1,0 +1,10 @@
+.simulations_header_box {
+    background-image: url('../../assets/Vector/simulations-blob.png');
+    background-repeat: no-repeat;
+    background-position: -20%;
+    background-size: 65% 115%;
+}
+
+.simulations_header_box > h1, p {
+    font-family: 'Nunito';
+}
